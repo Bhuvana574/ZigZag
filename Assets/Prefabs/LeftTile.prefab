@@ -42,6 +42,8 @@ GameObject:
   - component: {fileID: 666566171079865540}
   - component: {fileID: 2577399198754217857}
   - component: {fileID: 2556842473202412532}
+  - component: {fileID: 7644125902837038735}
+  - component: {fileID: 3366869634664160344}
   m_Layer: 0
   m_Name: LeftTile
   m_TagString: Untagged
@@ -128,6 +130,34 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &7644125902837038735
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2188468338416922990}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 122
+  m_CollisionDetection: 0
+--- !u!114 &3366869634664160344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2188468338416922990}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37324f512d01dd04ba43f4f1793e8d37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4133198396731143398
 GameObject:
   m_ObjectHideFlags: 0
@@ -138,7 +168,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3906739270581069248}
   - component: {fileID: 5031729262364645294}
-  - component: {fileID: 1646660058353147765}
+  - component: {fileID: 2047305402100057520}
   m_Layer: 0
   m_Name: TileCollider
   m_TagString: Untagged
@@ -173,7 +203,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.08, y: 1, z: 1}
   m_Center: {x: 0.45, y: 1, z: 0}
---- !u!114 &1646660058353147765
+--- !u!114 &2047305402100057520
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
