@@ -86,8 +86,10 @@ public class TileManager : MonoBehaviour
             temp.transform.position = currentTile.transform.GetChild(1).position;
             currentTile = temp;
         }
+       
 
-        int pickupCoinsRange = Random.Range(0, 10);
+
+    int pickupCoinsRange = Random.Range(0, 10);
         if (pickupCoinsRange == Random.Range(0,10))
         {
             currentTile.transform.GetChild(3).gameObject.SetActive(true);

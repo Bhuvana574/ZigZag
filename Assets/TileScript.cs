@@ -13,10 +13,15 @@ public class TileScript : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+  /*private  void FixedUpdate()
     {
+        RaycastHit hit;
+        if(Physics.Raycast(transform.position,Vector3.forward,out hit,Mathf.Infinity))
+        {
+            Debug.Log("Rayacast hit information"+hit.transform.name);
+        }
         // Debug.Log(tempRigidbody.gameObject.name);
-    }
+    }*/
     private void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Player")
@@ -44,8 +49,11 @@ public class TileScript : MonoBehaviour
         }
         else if (tempRigidbody.gameObject.name == "LeftTile")
         {
+           
+             
+    
 
-            TileManager.Instance.AddLeftTilePool(tempRigidbody.gameObject);
+    TileManager.Instance.AddLeftTilePool(tempRigidbody.gameObject);
             //Debug.Log("Added to left pool");
         }
     }

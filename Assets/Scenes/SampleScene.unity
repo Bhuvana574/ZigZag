@@ -1026,7 +1026,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4077393833878275246, guid: 4e496d5bba1ad2041be8e9ba036cee2f, type: 3}
       propertyPath: m_TagString
-      value: Tiles
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 4396959762713279308, guid: 4e496d5bba1ad2041be8e9ba036cee2f, type: 3}
       propertyPath: m_Name
